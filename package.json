@@ -1,0 +1,29 @@
+{
+  "name": "@thall1961/create-mvc",
+  "version": "0.0.1",
+  "description": "A CLI to bootstrap MVC projects",
+  "main": "src/index.js",
+  "bin": {
+    "@thall1961/create-mvc": "bin/create-mvc.js",
+    "create-mvc": "bin/create-mvc.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-mvc"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "inquirer": "^6.5.0",
+    "ncp": "^2.0.0"
+  }
+}
