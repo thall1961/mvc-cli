@@ -2,6 +2,11 @@ import arg from 'arg';
 import inquirer from 'inquirer';
 import {createProject} from './main';
 
+// be able to create directory if needed
+// create the necessary files and functions
+// along with associated test files and
+// functions
+
 function parseArgumentsIntoOptions(rawArgs) {
   const args = arg(
     {
